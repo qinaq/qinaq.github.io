@@ -1,0 +1,55 @@
+.clearfix:before,.clearfix:after{content: " ";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{zoom:1;clear:both;}
+body{font-family: "微软雅黑"}
+header{/*width: 1104px;*/height: 626px;background-image: url(images/bj.png);}
+.top li{float: left;margin-left: 44px;}
+.top ul{float: right;margin-top:25px;}
+.top img{float: left;}
+.top a{text-decoration: none;color: white;}
+.top{width: 894px;height: 58px;overflow: hidden;margin:0 auto;padding-top: 71px;margin-bottom: 35px;}
+.pic img{float: left;}
+.list{width: 376px;height: 397px;background-color:#2b2b2b;margin-left:653px;margin-top:-418px;float: right;}
+.banner{width: 980px;margin-left:185px;}
+.list li{float: left;margin-top: 20px;margin-left:33px;color: white;}
+.list-top{width: 376px;height: 114px;margin: 0 auto;background-color:#1d1d1d;margin-top: 26px;}
+.list-top nav{width: 334px;height: 114px;margin: 0 auto;overflow: hidden;border-bottom: 1px dashed  #4b4b4b;} 
+.list-top img{float: left;margin-top: 15px;}
+.list-middle img{float: left;margin-top: 15px;}
+.list-middle nav{width: 334px;height: 114px;margin: 0 auto;background-color: #2b2b2b;margin-top: 2px;border-bottom: 1px dashed #4b4b4b;}
+.list-bottom img{float: left;margin-top: 15px;}
+.list-bottom nav{width: 334px;height: 114px;margin: 0 auto;background-color: #2b2b2b;margin-top: 2px;}
+.main{background-color: #121212;}
+.main-inner{margin:0 auto;width: 970px;overflow: hidden;}
+.content{width: 602px;float: left;}
+.sidebar{width: 296px;float: right;}
+.content h1{color: white;font-family:MV Boli;font-size:29px;font-weight: lighter;margin-top:30px;}
+.content p{margin-bottom: 10px;}
+.first{color: white;font-size: 14px;}
+.second{color: #5c6161;font-size: 12px;line-height:18px;}
+.third{color: white;font-size: 13px;line-height: 15px;}
+.content img{margin-top: 10px;}
+hr{border-style: dashed;color: gray;}
+.content li{float: left;margin-right: 10px;margin-bottom:4px;}
+.images{margin-right: 34px;margin-bottom: 90px;}
+.right{width: 293px;height: 346px;background-color: #b5c83c;margin-top:25px;border-radius:10px;}
+.right img{margin-left:21px;margin-top: 24px;}
+.right h1{font-family:MV Boli;font-size:25px;line-height:24px;padding-top: 20px;padding-left: 20px;}
+.right li {float: left;margin-top:10px;margin-left:25px;}
+.right h2{text-decoration: underline;}
+.bin{margin-top: 15px;}
+.bottom nav{margin-top:20px;float: left;margin-right:65px;}
+.bottom h1{margin-top:40px;font-size: 25px;color: white;font-weight: lighter;margin-bottom: 25px;}
+.bottom li a{color:white;background-image: url(images/14.png);background-repeat: no-repeat;padding-left:15px;background-position: left center;font-size: 12px;}
+footer{height: 156px;background-color: #1d1d1d;}
+footer li{float: left;margin-left: 10px;}
+footer a{color:#737373;font-size: 12px;text-decoration: none;}
+footer nav{width:544px;margin-left:164px;padding-top: 50px;overflow: hidden;}
+footer p{margin-left: 10px;color: white;font-size: 12px;}
+footer p img{margin-top:5px;}
+.bin li a{background-image: url(images/21.png);background-repeat:no-repeat;padding-left:35px;background-position: left center;font-size:17px;color:black;}
+footer{height: 156px;background-color: #1d1d1d;}
+.bgn li a{background-image: url(images/19.png);background-repeat:no-repeat;padding-left:35px;background-position: left center;font-size:17px;color:black;}
+.bcn li a{background-image: url(images/18.png);background-repeat:no-repeat;padding-left:35px;background-position: left center;font-size:17px;color:black;}
+.ban li a{background-image: url(images/17.png);background-repeat:no-repeat;padding-left:35px;background-position: left center;font-size:17px;color:black;}
+.bjn li a{background-image: url(images/16.png);background-repeat:no-repeat;padding-left:35px;background-position: left center;font-size:17px;color:black;}

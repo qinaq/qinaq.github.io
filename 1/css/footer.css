@@ -1,0 +1,11 @@
+ footer{width: 100%;background-image: url(../images/bg.png);/*background-size:cover;*/}
+.footer-inner{margin:0 auto;width: 69.0882%;/*932/1349*/}
+.logo{float: left;margin-top:20px;}
+.logo p{font-size:15px;color:#a3a1a2;line-height:20px;margin-top:10px;margin-bottom: 31px;}
+.nav p{float: right;color:#a3a1a2;font-size:15px;margin-top:20px;}
+.nav{float:right;margin-top:40px;}
+.nav ul li{float: left;margin-left: 20px;border-left:1px solid red;}
+.nav ul li a{text-decoration: none;color:#aaa8a9;padding:0px 5px;}
+@media screen and(max-width:480px){
+	body{font-size:10px;}
+}

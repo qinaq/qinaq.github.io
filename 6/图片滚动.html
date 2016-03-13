@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="reset.css">
+	<style>
+	*{margin: 0;padding: 0;}
+	.picture{
+		width: 100%;height: 900px;
+	}
+	ul{position: fixed;top:200px;left: 0px;}
+    ul li img{width: 70px;height: 70px;}
+    ul li {width: 70px;height: 70px;}
+    li:nth-child(1){background-color:#305790 }
+    li:nth-child(2){background-color:#2ba9d2 }
+    li:nth-child(3){background-color:#cf4c3a }
+    li:nth-child(4){background-color:#4598ca }
+    li:nth-child(5){background-color:#f9694e }
+	</style>
+</head>
+<body>
+	<div>
+		<img src="b.png" class="picture">
+		<img src="images/banner2.jpg" class="picture">
+		<img src="images/banner3.jpg" class="picture">
+		<img src="images/banner4.jpg" class="picture">
+		<img src="c.jpg" class="picture">
+	</div>
+	<ul>
+		<li>
+		 <img src="images/lanren01.jpg" class="one">	
+		</li>
+		<li>
+		  <img src="images/lanren02.jpg" class="two">
+		</li>
+		<li>
+		 <img src="images/lanren03.jpg" class="three">
+		</li>
+		<li>
+		 <img src="images/lanren04.jpg" class="four">	
+		</li>
+		<li>
+		 <img src="images/lanren05.jpg" class="fifth">	
+		</li>
+	</ul>
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script>
+     	$("li").hover(function(){
+     		var parleft=20
+     		$(this).stop().animate({"padding-left":parleft},1000)},
+     		function(){
+     			$(this).stop().animate({"padding-left":0},1000)
+     		})
+        // $("li").click(function(){        使用此代码时，不能拉动滚动条
+        // 	var ind=$(this).index();
+        // 	var marleft=ind*-900;
+        // 	$("div").animate({
+        // 		"margin-top":marleft
+        // 	},500)
+        // })
+       $("li").click(function(){
+        	var ind=$(this).index();
+        	var scroll=$("div img").eq(ind).offset();
+        	$("body,html").animate({
+        		scrollTop:scroll.top
+         })
+        })
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.clearfix:before,.clearfix:after{content:""; display:table;}
+.clearfix:after{clear:both}
+.clearfix{zoom:1;clear:both}
+
+
+
+@keyframes changeColor{0%{text-shadow:0 0 0  #fff;}
+					 /*  50%{text-shadow:1px 1px 50px  #282828;}*/
+					   100%{text-shadow:1px 1px 30px  #000;}}
+body{font-family: arial;}
+header{/*background-color: red;*/}
+header .header-inner{width: 960px;background-color: #fff;margin: 0 auto;border-bottom:3px double #d6d5d5;}
+header .header-inner img{display:block;margin:0 auto;}
+header .header-inner h1{font-size: 40px;margin-left: 10px;margin-top: 32px;text-shadow:1px 1px 0 #dad7d7;}
+header .header-inner nav{/*width: 960px;*/height: 40px;margin-top: 39px;margin-bottom: 23px;
+						background-image: -webkit-linear-gradient(#fcfcfc, #e5e5e5);
+						background-image: -moz-linear-gradient(#fcfcfc, #e5e5e5);}					
+header .header-inner nav ul li{float: left;margin-left: 10px;}
+header .header-inner nav ul li a{text-decoration: none;font-size:15px;color:#000;line-height: 40px;padding:0 56px;*padding:0 47px;padding:0 47px\0/;}
+header .header-inner nav ul li a:hover{animation:changeColor 2s infinite alternate;
+									   -webkit-animation:changeColor 2s infinite alternate;	
+									   -moz-animation:changeColor 2s infinite alternate;
+									   -o-animation:changeColor 2s infinite alternate;}			
+header .header-inner nav ul li:first-child>a{padding:0;}
+header .header-inner nav ul li:last-child>a{padding:0;/*margin-right: 10px;*/;}
+header .header-inner nav ul li:nth-child(2n+1)>a{color:red;}
+
+
+footer{/*background-color: pink;*/}
+footer .footer-inner{width: 960px;/*background-color: red;*/margin: 0 auto;}
+footer .footer-inner h2{font-size: 14px;text-align: center;padding-top: 32px;margin-bottom: 35px;}
+footer .footer-inner img{display:block;margin: 0 auto;}
